@@ -1,0 +1,2044 @@
+fileFormatVersion: 2
+guid: c7a6172ba1681e74e9da9f90deb15dd4
+timeCreated: 1481393870
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: faces-03_0
+    21300002: faces-03_1
+    21300004: faces-03_2
+    21300006: faces-03_3
+    21300008: faces-03_4
+    21300010: faces-03_5
+    21300012: faces-03_6
+    21300014: faces-03_7
+    21300016: faces-03_8
+    21300018: faces-03_9
+    21300020: faces-03_10
+    21300022: faces-03_11
+    21300024: faces-03_12
+    21300026: faces-03_13
+    21300028: faces-03_14
+    21300030: faces-03_15
+    21300032: faces-03_16
+    21300034: faces-03_17
+    21300036: faces-03_18
+    21300038: faces-03_19
+    21300040: faces-03_20
+    21300042: faces-03_21
+    21300044: faces-03_22
+    21300046: faces-03_23
+    21300048: faces-03_24
+    21300050: faces-03_25
+    21300052: faces-03_26
+    21300054: faces-03_27
+    21300056: faces-03_28
+    21300058: faces-03_29
+    21300060: faces-03_30
+    21300062: faces-03_31
+    21300064: faces-03_32
+    21300066: faces-03_33
+    21300068: faces-03_34
+    21300070: faces-03_35
+    21300072: faces-03_36
+    21300074: faces-03_37
+    21300076: faces-03_38
+    21300078: faces-03_39
+    21300080: faces-03_40
+    21300082: faces-03_41
+    21300084: faces-03_42
+    21300086: faces-03_43
+    21300088: faces-03_44
+    21300090: faces-03_45
+    21300092: faces-03_46
+    21300094: faces-03_47
+    21300096: faces-03_48
+    21300098: faces-03_49
+    21300100: faces-03_50
+    21300102: faces-03_51
+    21300104: faces-03_52
+    21300106: faces-03_53
+    21300108: faces-03_54
+    21300110: faces-03_55
+    21300112: faces-03_56
+    21300114: faces-03_57
+    21300116: faces-03_58
+    21300118: faces-03_59
+    21300120: faces-03_60
+    21300122: faces-03_61
+    21300124: faces-03_62
+    21300126: faces-03_63
+    21300128: faces-03_64
+    21300130: faces-03_65
+    21300132: faces-03_66
+    21300134: faces-03_67
+    21300136: faces-03_68
+    21300138: faces-03_69
+    21300140: faces-03_70
+    21300142: faces-03_71
+    21300144: faces-03_72
+    21300146: faces-03_73
+    21300148: faces-03_74
+    21300150: faces-03_75
+    21300152: faces-03_76
+    21300154: faces-03_77
+    21300156: faces-03_78
+    21300158: faces-03_79
+    21300160: faces-03_80
+    21300162: faces-03_81
+    21300164: faces-03_82
+    21300166: faces-03_83
+    21300168: faces-03_84
+    21300170: faces-03_85
+    21300172: faces-03_86
+    21300174: faces-03_87
+    21300176: faces-03_88
+    21300178: faces-03_89
+    21300180: faces-03_90
+    21300182: faces-03_91
+    21300184: faces-03_92
+    21300186: faces-03_93
+    21300188: faces-03_94
+    21300190: faces-03_95
+    21300192: faces-03_96
+    21300194: faces-03_97
+    21300196: faces-03_98
+    21300198: faces-03_99
+    21300200: faces-03_100
+    21300202: faces-03_101
+    21300204: faces-03_102
+    21300206: faces-03_103
+    21300208: faces-03_104
+    21300210: faces-03_105
+    21300212: faces-03_106
+    21300214: faces-03_107
+    21300216: faces-03_108
+    21300218: faces-03_109
+    21300220: faces-03_110
+    21300222: faces-03_111
+    21300224: faces-03_112
+    21300226: faces-03_113
+    21300228: faces-03_114
+    21300230: faces-03_115
+    21300232: faces-03_116
+    21300234: faces-03_117
+    21300236: faces-03_118
+    21300238: faces-03_119
+    21300240: faces-03_120
+    21300242: faces-03_121
+    21300244: faces-03_122
+    21300246: faces-03_123
+    21300248: faces-03_124
+    21300250: faces-03_125
+    21300252: faces-03_126
+    21300254: faces-03_127
+    21300256: faces-03_128
+    21300258: faces-03_129
+    21300260: faces-03_130
+    21300262: faces-03_131
+    21300264: faces-03_132
+    21300266: faces-03_133
+    21300268: faces-03_134
+    21300270: faces-03_135
+    21300272: faces-03_136
+    21300274: faces-03_137
+    21300276: faces-03_138
+    21300278: faces-03_139
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: faces-03_0
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 4454
+        width: 150
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_1
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 4408
+        width: 150
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_2
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 4435
+        width: 150
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_3
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 4435
+        width: 148
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_4
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 4429
+        width: 150
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_5
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 4429
+        width: 150
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_6
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 4295
+        width: 186
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_7
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 4295
+        width: 187
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_8
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 4301
+        width: 211
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_9
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 4301
+        width: 211
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_10
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 4293
+        width: 220
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_11
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 4293
+        width: 222
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_12
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 4138
+        width: 140
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_13
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 4147
+        width: 138
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_14
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 4129
+        width: 139
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_15
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 3902
+        width: 150
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_16
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 3895
+        width: 149
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_17
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 3921
+        width: 149
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_18
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 3920
+        width: 150
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_19
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 3916
+        width: 149
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_20
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 3916
+        width: 150
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 3782
+        width: 186
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_22
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 3782
+        width: 186
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_23
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 3787
+        width: 209
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_24
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 3787
+        width: 211
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_25
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 3779
+        width: 220
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_26
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 3779
+        width: 223
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_27
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 3807
+        width: 99
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_28
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 3804
+        width: 107
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_29
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 3691
+        width: 99
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_30
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 3682
+        width: 107
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_31
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3625
+        width: 141
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_32
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 3632
+        width: 138
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_33
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 3614
+        width: 139
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_34
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 3105
+        width: 164
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_35
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 3125
+        width: 165
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_36
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 3128
+        width: 165
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_37
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 3134
+        width: 165
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_38
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 3134
+        width: 164
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_39
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 3155
+        width: 166
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_40
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 3157
+        width: 165
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_41
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 3114
+        width: 107
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_42
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 3105
+        width: 163
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_43
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 3014
+        width: 170
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_44
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 3014
+        width: 171
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_45
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 3019
+        width: 202
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_46
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 3019
+        width: 202
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_47
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 2980
+        width: 171
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_48
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 2980
+        width: 170
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_49
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 2987
+        width: 201
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_50
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 2987
+        width: 200
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_51
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 2985
+        width: 100
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_52
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2814
+        width: 184
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_53
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 2823
+        width: 182
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_54
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 2842
+        width: 181
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_55
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2851
+        width: 182
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_56
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2556
+        width: 150
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_57
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2551
+        width: 150
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_58
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 2576
+        width: 150
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_59
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 2576
+        width: 149
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_60
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 2560
+        width: 150
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_61
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 2555
+        width: 149
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_62
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 2580
+        width: 150
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_63
+      rect:
+        serializedVersion: 2
+        x: 2679
+        y: 2580
+        width: 150
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_64
+      rect:
+        serializedVersion: 2
+        x: 2986
+        y: 2490
+        width: 106
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_65
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2435
+        width: 188
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_66
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 2435
+        width: 188
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_67
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 2442
+        width: 211
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_68
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 2442
+        width: 212
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_69
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 2440
+        width: 186
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_70
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 2440
+        width: 186
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_71
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 2444
+        width: 211
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_72
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 2444
+        width: 209
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_73
+      rect:
+        serializedVersion: 2
+        x: 2986
+        y: 2363
+        width: 99
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_74
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2297
+        width: 170
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_75
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 2306
+        width: 170
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_76
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 2313
+        width: 170
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_77
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 2313
+        width: 168
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_78
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2002
+        width: 154
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_79
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 2002
+        width: 152
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_80
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 2015
+        width: 154
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_81
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2015
+        width: 153
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_82
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 2029
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_83
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 2029
+        width: 152
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_84
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 1945
+        width: 107
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_85
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1970
+        width: 153
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_86
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1970
+        width: 154
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_87
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1874
+        width: 171
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_88
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1874
+        width: 170
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_89
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 1881
+        width: 202
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_90
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 1881
+        width: 202
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_91
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1840
+        width: 169
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_92
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1840
+        width: 170
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_93
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1847
+        width: 202
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_94
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1847
+        width: 200
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_95
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 1818
+        width: 100
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_96
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1688
+        width: 140
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_97
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1684
+        width: 139
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_98
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1693
+        width: 139
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_99
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1688
+        width: 140
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_100
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1364
+        width: 152
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_101
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 1364
+        width: 154
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_102
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1377
+        width: 153
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_103
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 1377
+        width: 154
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_104
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 1391
+        width: 154
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_105
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 1391
+        width: 152
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_106
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1332
+        width: 152
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_107
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1332
+        width: 152
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_108
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1236
+        width: 170
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_109
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1236
+        width: 170
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_110
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 1243
+        width: 202
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_111
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 1243
+        width: 200
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_112
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 1277
+        width: 111
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_113
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1203
+        width: 171
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_114
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1202
+        width: 169
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_115
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1209
+        width: 202
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_116
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1209
+        width: 202
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_117
+      rect:
+        serializedVersion: 2
+        x: 3017
+        y: 1118
+        width: 96
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_118
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1050
+        width: 141
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_119
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1046
+        width: 140
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_120
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 1055
+        width: 141
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_121
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 1050
+        width: 139
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_122
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 632
+        width: 214
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_123
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 672
+        width: 140
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_124
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 691
+        width: 136
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_125
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 623
+        width: 136
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_126
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 657
+        width: 141
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_127
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 598
+        width: 186
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_128
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 582
+        width: 189
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_129
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 496
+        width: 223
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_130
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 537
+        width: 172
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_131
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 515
+        width: 56
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_132
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 446
+        width: 188
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_133
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 385
+        width: 182
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_134
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 403
+        width: 169
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_135
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 353
+        width: 182
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_136
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 341
+        width: 213
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_137
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 374
+        width: 170
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_138
+      rect:
+        serializedVersion: 2
+        x: 2493
+        y: 333
+        width: 75
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: faces-03_139
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 351
+        width: 55
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

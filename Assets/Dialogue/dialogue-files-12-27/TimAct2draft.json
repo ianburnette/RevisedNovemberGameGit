@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Tim",
+		"tags": "",
+		"body": "<<if visited (\"Tim\") is false and if visited (\"Steve\") is false>>\nNorra: Hi!\nTim: Hello, Norra. \nTim: Are you looking for something to do? \nTim: Steve is working to clear some fallen trees off the path.\nTim: He's out in the lower forest, and the chainsaw is broken. \nTim: Can you bring him the axe so he can finish clearing the paths?\n<<elseif visited (\"Tim\") is false and if visited (\"Steve\") is true>>\nTim: Hello, Norra.\nNorra: Hi Tim!\nNorra: Steve sent me up here. \nNorra: He said the chainsaw is broken\nNorra: and he needs the axe so he can finish clearing the paths. \nTim: Okay, the axe is in the toolshed. \nTim: I'll unlock it for you.\n<<elseif visited (\"Tim\") is true>>\nTim: Steve is still waiting for that axe. . . \n<<endif>>\n\n",
+		"position": {
+			"x": 541,
+			"y": 260
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Tim.Toolshed",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 826,
+			"y": 300
+		},
+		"colorID": 0
+	}
+]

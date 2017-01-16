@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Fox.Start",
+		"tags": "",
+		"body": "<<if visited(\"Fox.Start\") is false>>\nNorra: Hi.\nFox: Hello.\nNorra: . . . \nFox: Can I help you with something?\nFox: It's just in the middle of some rather important business.\n--> What are you working on? Can I help?\n    Fox: No, it's foxy business. Move along. [[Fox.Exit]]\n--> Okay, sorry to bother you. \n    [[Fox.Exit]]\n<<else>>\nFox: Oh, it's you again.\n[[Fox.Talk]]\n<<endif>>\n\n\n",
+		"position": {
+			"x": 524,
+			"y": 50
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Fox.Talk",
+		"tags": "",
+		"body": "Fox: I'm still rather busy.\n--> You're just walking around.\n    Fox: Like I said, fox business.\n--> I need some help.\n    Fox: What do I look like, your fairy godmother?\nFox: Run along a play.\n[[Fox.Exit]]\n\n",
+		"position": {
+			"x": 226,
+			"y": 308
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Fox.Exit",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 824,
+			"y": 236
+		},
+		"colorID": 0
+	}
+]

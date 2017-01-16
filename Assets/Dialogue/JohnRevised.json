@@ -1,0 +1,52 @@
+[
+	{
+		"title": "John.Tutorial.1",
+		"tags": "",
+		"body": "John: Welcome to the castle!\nJohn: Thanks for volunteering your time to help us out. (to work in the grounds?)\nJohn: My name is John. I'm the head gardener here. \nJohn: Why don't we start with a quick tour.\nJohn: I can bring you through the gardens and some of the grounds. \nJohn: Just so you can orient yourself. \nJohn: ...we can't go in...\nJohn: The rest you can explore on your own. \n<<move John TeaRoom>>\n<<SetStartNode npc_John John.Tutorial.2>>\n",
+		"position": {
+			"x": -93,
+			"y": 133
+		},
+		"colorID": 0
+	},
+	{
+		"title": "John",
+		"tags": "",
+		"body": "John: Hello, Norra. \nNorra: Hello!\nJohn: Are you enjoying yourself?\n-> Yes, I'm having so much fun!\n    John: Good. \n-> Not yet.\n    John: Oh dear. Well, I hope you start having fun soon.\nJohn: You can help me, if you like. \n<<if visited (\"John\") is false>>\nJohn: I'm edging the beds right now.\n<<else>>\nJohn: I'm still working on cleaning up the edges of the beds.\n<<endif>>\nJohn: You can rake up the bits of grass\nJohn: and put them in the wheelbarrow. \n[[Okay!|John.Help]]\n[[Sorry, I can't right now.|John.Exit]]\n",
+		"position": {
+			"x": 225,
+			"y": 142
+		},
+		"colorID": 0
+	},
+	{
+		"title": "John.Exit",
+		"tags": "",
+		"body": "John: Okay. Take care, Norra.\n",
+		"position": {
+			"x": 50,
+			"y": 443
+		},
+		"colorID": 0
+	},
+	{
+		"title": "John.Help",
+		"tags": "",
+		"body": "John: Thank you.\n",
+		"position": {
+			"x": 290,
+			"y": 441
+		},
+		"colorID": 0
+	},
+	{
+		"title": "John.Tutorial.2",
+		"tags": "",
+		"body": "John: Try moving around and interacting with things. \n(tea room is closed, read sign) \nJohn: Just ask if you have any questions.\nJohn: Chestnut trees...?\nJohn: Tea room...?\nJohn: Okay, let's keep going.\n<<move John EstateOffice>>\nJohn: This is the office. \nJohn: Let me introduce you to everyone. \nJohn: Tim is the manager. He's in charge.\nJohn: If you ever have a question about where to go,\nJohn: just ask Tim.\nTim: Good to have you, Norra!\nJohn: This is Fiona. Fiona works in the gardens with me.\nFiona: Pleased to meet you, Norra. \nJohn: And Steve maintains the rest of the grounds.\nSteve: Hello!\nJohn: Alright, now that you've met everyone,\nJohn: let's go into the garden.\n<<Move John RoseGarden>>\nJohn: Let me show you how to use the tools. \nJohn: Here, take this rake. \nJohn: Try raking up some of that cut grass. \n<<set $have_rake to true>>\n\n",
+		"position": {
+			"x": -381,
+			"y": 132
+		},
+		"colorID": 0
+	}
+]

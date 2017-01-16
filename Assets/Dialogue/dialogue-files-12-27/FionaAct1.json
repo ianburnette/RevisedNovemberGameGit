@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Fiona",
+		"tags": "",
+		"body": "<<if visited (\"Fiona\") is false>>\nNorra: Hey Fiona!\n<<if visited (\"Tim\") is true>>\nNorra: Tim said you needed some help with the budgies.\nFiona: Definitely. Can you help now?\n[[Yeah, what can I do? |Fiona.Help]]\n[[Not right now, sorry. |Fiona.Exit]]\n<<else>>\nFiona: Hi, Norra. \nFiona: I could use your help here. Do you have a minute?\n[[Yeah, what can I do? |Fiona.Help]]\n[[Not right now, sorry. |Fiona.Exit]]\n<<endif>>\n<<else>>\nFiona: Hi, Norra. \nFiona: Can you help me now?\n[[Yeah, what can I do? |Fiona.Help]]\n[[Not right now, sorry. |Fiona.Exit]]\n<<endif>>\n\n",
+		"position": {
+			"x": 540,
+			"y": 260
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Fiona.Help",
+		"tags": "",
+		"body": "Fiona: We have to feed the budgies.\nFiona: I am cutting up some fruit and veg for them now. \nFiona: I forgot the keys to the aviary up at the toolshed. Can you grab them?\nFiona: While you're up there, can you grab the birdseed?\nFiona: The bucket is too heavy for me to carry. \n<<set $received_supply_list_from_Fiona to true>>\n[[No problem! |Fiona.Exit2]]\n[[I can't right now, sorry. |Fiona.Exit]]\n",
+		"position": {
+			"x": 609,
+			"y": 519
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Fiona.Exit",
+		"tags": "",
+		"body": "Fiona: Okay, come back when you have some time.\n",
+		"position": {
+			"x": 373,
+			"y": 524
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Fiona.Exit2",
+		"tags": "",
+		"body": "Fiona: Great, thank you!\n",
+		"position": {
+			"x": 618,
+			"y": 808
+		},
+		"colorID": 0
+	}
+]

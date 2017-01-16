@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Steve",
+		"tags": "",
+		"body": "Steve: Come to help out?\n[[Yes.|Steve.Exit]]\n[[No, just came to chat.|Steve.Exit]]\n",
+		"position": {
+			"x": 506,
+			"y": 252
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Steve.Exit",
+		"tags": "",
+		"body": "<<if visited (\"Steve.Exit\") is false>>\nSteve: I'm just fixing the fence right now.\nSteve: It's sort of a one-person job.\n<<else>>\nSteve: I'm still working on this fence.\n<<endif>>",
+		"position": {
+			"x": 505,
+			"y": 551
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Steve1",
+		"tags": "",
+		"body": "[[Steve]]",
+		"position": {
+			"x": 191,
+			"y": 256
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node29",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 449,
+			"y": 907
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Steve.Fence",
+		"tags": "",
+		"body": "<<if visited (\"Steve.Fence\") is false>>\nSteve: I'm just fixing the fence right now.\nSteve: It's sort of a one-person job.\n<<else>>\nSteve: I'm still working on this fence.\n<<endif>>\nSteve: You can always check with Tim to see if anyone else needs help.\n[[Okay. See you later.|Steve.Exit]]\n[[I'm just here to chat.|Steve.Exit]]\n\n",
+		"position": {
+			"x": 807,
+			"y": 332
+		},
+		"colorID": 0
+	}
+]

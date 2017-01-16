@@ -1,0 +1,92 @@
+[
+	{
+		"title": "John",
+		"tags": "",
+		"body": "John: Hello, Norra. \nNorra: Hi, Ed!\nJohn: Are you enjoying yourself?\n-> Yes, I'm having so much fun!\n    John: Good. \n-> Not yet.\n    John: Oh dear. Well, I hope you start having fun soon.\nJohn: You can help me, if you like. \nJohn: I'm still working on cleaning up the edges of the flower beds.\nJohn: You can rake up the bits of grass\nJohn: and put them in the wheelbarrow. \n[[Okay!|John.Help]]\n[[Sorry, I can't right now.|John.Exit]]\n",
+		"position": {
+			"x": 551,
+			"y": -89
+		},
+		"colorID": 0
+	},
+	{
+		"title": "John.Exit",
+		"tags": "",
+		"body": "John: Okay. Take care, Norra.\n",
+		"position": {
+			"x": 717,
+			"y": 216
+		},
+		"colorID": 0
+	},
+	{
+		"title": "John.Help",
+		"tags": "",
+		"body": "John: Thank you.\n",
+		"position": {
+			"x": 429,
+			"y": 206
+		},
+		"colorID": 0
+	},
+	{
+		"title": "John.Tutorial",
+		"tags": "",
+		"body": "<<set $wheelbarrow_full to false>>\n<<if visited (\"John.Tutorial\") is false>>\nJohn: Well, Norra, we are certainly pleased to have you. \nJohn: The estate team can always use more volunteers.\nJohn: I think you will enjoy working here.\nJohn: The grounds are beautiful place to work, \nJohn: and sometimes a little magical too.\n[[Who are you?|John.Introduction]]\n[[Where am I?|John.Location]]\n<<else>>\n[[John.Rake]]\n<<endif>>\n",
+		"position": {
+			"x": -708,
+			"y": -68
+		},
+		"colorID": 0
+	},
+	{
+		"title": "John.Introduction",
+		"tags": "",
+		"body": "John: Have you forgotten already?\nJohn: My name is Edwin.\nJohn: I'm the head gardener here at the castle.\nJohn: But you can call me Ed.\n[[John.Location]]",
+		"position": {
+			"x": -380,
+			"y": 56
+		},
+		"colorID": 0
+	},
+	{
+		"title": "John.Location",
+		"tags": "",
+		"body": "John: We're in the lower garden right now. \nJohn: Just up there is the rose garden. \nJohn: Why don't you walk around and explore a little bit.\n\n",
+		"position": {
+			"x": -644,
+			"y": 267
+		},
+		"colorID": 0
+	},
+	{
+		"title": "John.Leave",
+		"tags": "",
+		"body": "John: Norra, you can't leave yet!\nJohn: We need to finish edging this flower bed.\n[[John.Rake]]\n\n",
+		"position": {
+			"x": -322,
+			"y": 373
+		},
+		"colorID": 0
+	},
+	{
+		"title": "John.Rake",
+		"tags": "",
+		"body": "<<if $have_rake is false>>\nJohn: Pick up that rake over there,\n<<else>>\nJohn: Use that rake you picked up,\n<<endif>>\nJohn: and gather up all the bits of grass. Then put them in the wheelbarrow.",
+		"position": {
+			"x": -118,
+			"y": -117
+		},
+		"colorID": 0
+	},
+	{
+		"title": "John.Wheelbarrow",
+		"tags": "",
+		"body": "<<if $wheelbarrow_full is true>>\n<<if visited (\"John.Wheelbarrow\") is false>>\nJohn: That looks great, Norra!\nJohn: Thanks for your help. \n<<endif>>\nJohn: Why don't you go see if anyone else needs your help.\n<<else>>\nJohn: Just gather up the grass with that rake, and put it in the wheelbarrow. \n<<endif>>",
+		"position": {
+			"x": -25,
+			"y": 265
+		},
+		"colorID": 0
+	}
+]

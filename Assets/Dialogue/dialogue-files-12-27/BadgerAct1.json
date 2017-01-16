@@ -1,0 +1,92 @@
+[
+	{
+		"title": "Badger",
+		"tags": "",
+		"body": "<<if visited (\"Badger\") is false>>\nNorra: Um. . . hello?\nBadger: *snurfle snuff sniff*\nNorra: Excuse me. . . \nBadger: Hmmm. . .?\n -> Who are you? \n    Badger: I'm a badger.\n -> Where am I?\n    Badger: You're in the garden on the estate of the High Faery.\n -> What is going on? \n    Badger: The world is falling apart. Haven't you noticed?\n -> Have you seen a peachick around here by any chance? <<if $searching_for_chicks is true and $number_of_chicks < 3>>\n    Badger: A peachick? Is that like a chickpea? \n[[Okay, thanks for the helpful information.|Badger.Exit]]\n[[Could you be a little more clear?|Badger.Intro]]\n<<else>>\nBadger: You're back again. . . \n[[Badger.Intro]]\n<<endif>>\n",
+		"position": {
+			"x": 606,
+			"y": 97
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Badger.Exit",
+		"tags": "",
+		"body": "Badger: See you around, stranger.\n",
+		"position": {
+			"x": 211,
+			"y": 448
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Badger.Intro",
+		"tags": "",
+		"body": "Badger: You're not from around here, are you?\nNorra: Not exactly. . .\nBadger: It happens from time to time. \nBadger: Too bad for you.\nNorra: What?\nBadger: Well, it's not the best time to be visiting.\nBadger: It's not normally like this, you know. \n[[What is it like normally?|Badger.Explain]]\n[[I think it looks nice.|Badger.PreExplain]]\n\n",
+		"position": {
+			"x": 838,
+			"y": 246
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Badger.Explain",
+		"tags": "",
+		"body": "Badger: Normally it is much more pleasant in the gardens.\nBadger: The Faeries used to throw parties and all the animals would join in.\nBadger: But the Faeries haven't been seen in ages.\nBadger: They've locked themselves away in the castle. . . \nBadger: And ever since the world has grown dark and terrible.\n[[Is there anything I can do?|Badger.Help]]\n[[Dark and terrible?|Badger.Detail]]\n\n\n",
+		"position": {
+			"x": 839,
+			"y": 528
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Badger.PreExplain",
+		"tags": "",
+		"body": "Badger: You think this is nice? \nBadger: What must it be like where you're from. . . \n[[Badger.Explain]]\n",
+		"position": {
+			"x": 558,
+			"y": 509
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Badger.Detail",
+		"tags": "",
+		"body": "Badger: Haven't you noticed?\nBadger: The earth shakes and trembles\nBadger: creating treacherous cliffs and chasms. . .\nBadger: Sharp thorny vines are growing like weeds\nBadger: making the pathways impassable.\nBadger: Most of my friends have been scared away!\n[[Badger.Help]]\n",
+		"position": {
+			"x": 1127,
+			"y": 525
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Badger.Help",
+		"tags": "",
+		"body": "Badger: I have been trying to get into the castle.\nBadger: It takes a very powerful magic to cause this kind of destruction. . . \nBadger: The Faeries are up to something in there. \nBadger: If you can get into the castle, \nBadger: try and find out what those troublesome Faeries are up to\nBadger: and why they are doing this to our home!\n[[I'll see what I can do!|Badger.Thanks]]\n[[I don't think I should get involved.|Badger.Scold]]\n",
+		"position": {
+			"x": 1123,
+			"y": 231
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Badger.Thanks",
+		"tags": "",
+		"body": "Badger: Thank you very much for your kindness. \nBadger: The animals will be eternally grateful.\n[[Badger.Exit]]\n\n",
+		"position": {
+			"x": 865,
+			"y": -28
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Badger.Scold",
+		"tags": "",
+		"body": "Badger: Around here, when someone needs your help. . . \nBadger: you always offer it. \nBadger: It's only the polite thing to do. \nBadger: Plus, you never know what favor you might get in return.\nNorra: Okay, I'll see if I can get into the castle.\n[[Badger.Thanks]]\n",
+		"position": {
+			"x": 1332,
+			"y": -15
+		},
+		"colorID": 0
+	}
+]

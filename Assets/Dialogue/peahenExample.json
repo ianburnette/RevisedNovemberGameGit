@@ -1,0 +1,72 @@
+[
+	{
+		"title": "Peahen.End",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 307,
+			"y": 153
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Peahen.HaveBirdSeed",
+		"tags": "",
+		"body": "Peahen: Yum!\nPeahen: Will you help me?\n[[Yes|Peahen.Help]]\n[[No|Peahen.End]]",
+		"position": {
+			"x": 31,
+			"y": 409
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Peahen.Help",
+		"tags": "",
+		"body": "<<SetStartNode npc_Peahen Peahen.2.Start>>\nPeahen: I've lost my three chicks. Give them birdseed and bring them back here!",
+		"position": {
+			"x": 311,
+			"y": 404
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Peahen.Gift",
+		"tags": "",
+		"body": "<<SetStartNode npc_Peahen Peahen.3.Start>>\nPeahen: Here's a gift for you. \n<<set $wear_bracelet to true>>\n\nNorra: Thank you!\n<<GetItem player bracelet>>",
+		"position": {
+			"x": 634,
+			"y": 418
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Peahen.1.Start",
+		"tags": "",
+		"body": "<<if visited(\"Peahen\")>>\n    Peahen: You again?\n<<else>>\n    Peahen: Ahh! \n<<endif>>\nPeahen: I don't like you!\n<<if $have_seed is true>>\n    [[Have some bird seed.|Peahen.HaveBirdSeed]]\n<<endif>>\n    [[Sorry to bother you.|Peahen.End]]",
+		"position": {
+			"x": 34,
+			"y": 160
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Peahen.2.Start",
+		"tags": "",
+		"body": "    <<if $Galahad is true>> \n        Peahen: Galahad, my boy!\n        <<set $Galahad to false>>\n        <<set $number_of_chicks to $number_of_chicks + 1>>\n    <<endif>>\n    <<if $Gawain is true>>\n        Peahen: Gawain, you rascal!\n        <<set $Gawain to false>>\n        <<set $number_of_chicks to $number_of_chicks + 1>>\n    <<endif>>\n    <<if $Guinevere is true>>\n        Peahen: Guinevere, you scamp!\n        <<set $Guinevere to false>>\n        <<set $number_of_chicks to $number_of_chicks + 1>>\n    <<endif>>\n    <<if $number_of_chicks is 0>>\n        Peahen: Have you found my babies yet?\n    <<elseif $number_of_chicks is 1>>\n        Peahen: Wonderful! But two of my babies are still out there somewhere!\n    <<elseif $number_of_chicks is 2>>\n        Peahen: Thank you! Only one chick left to find!\n    <<elseif $number_of_chicks is 3>>\n        Peahen: You've found them all! I have something for you.\n        [[You do?|Peahen.Gift]]\n    <<endif>>",
+		"position": {
+			"x": 640,
+			"y": 153
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Peahen.3.Start",
+		"tags": "",
+		"body": "Peahen: Are you enjoying your gift? It lets you climb things. ",
+		"position": {
+			"x": 923,
+			"y": 153
+		},
+		"colorID": 0
+	}
+]

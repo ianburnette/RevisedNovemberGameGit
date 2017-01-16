@@ -1,0 +1,72 @@
+[
+	{
+		"title": "Steve",
+		"tags": "",
+		"body": "Steve: Come to help out?\n[[Yes|Steve.Fence]]\n[[No, just came to chat|Steve.Snark]]\n",
+		"position": {
+			"x": 539,
+			"y": 257
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Steve.Snark",
+		"tags": "",
+		"body": "Steve: Maybe we can trade jobs. \nSteve: You can do all the hard labor\nSteve: and I can walk around talking to people all day. . . \n[[Steve.Talk]]\n",
+		"position": {
+			"x": 889,
+			"y": 341
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Steve.Fence",
+		"tags": "",
+		"body": "<<if visited (\"Steve.Fence\") is false>>\nSteve: I'm just fixing the fence right now.\nSteve: It's sort of a one-person job.\n<<else>>\nSteve: I'm still working on this fence.\n<<endif>>\nSteve: You can always check with Tim to see if anyone else needs help.\n[[Okay. See you later.|Steve.Exit]]\n[[I'm just here to chat.|Steve.Snark]]\n\n",
+		"position": {
+			"x": 517,
+			"y": 571
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Steve.Talk",
+		"tags": "",
+		"body": "<<if visited (\"Steve.Talk\") is false>>\n<<set $talk_to_Steve to 0>>\nNorra: So how long have you worked here?\nSteve: A few years.\nNorra: And how does one become a gardener for a living, anyway?\nSteve: Well, technically I'm not a gardener. \nSteve: I take care of the whole estate, not just the gardens. \nNorra: Whoa, Mr. Fancy Pants. \nSteve: Yeah, I'm epic. \n<<set $talk_to_Steve to +1>>\n<<elseif $talk_to_Steve = 1>>\nNorra: So, do you study that in school?\nSteve: Top of my class in Epicness.\nNorra: No, did you study to be an estate worker? Groundskeeper? Nature man?\nSteve: I studied Forestry at University.\n<<set $talk_to_Steve + 1>>\n[[That sounds cool.|Steve.Chat]]\n[[I'm going to talk to some other people now.|Steve.Exit]]\n<<elseif $talk_to_Steve > 1>>\n[[Steve.Chat]]\n<<endif>>\n\n",
+		"position": {
+			"x": 866,
+			"y": 641
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Steve.Exit",
+		"tags": "",
+		"body": "Steve: Keep up the hard work!\n",
+		"position": {
+			"x": 242,
+			"y": 895
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Steve.Chat",
+		"tags": "",
+		"body": "<<if $talk_to_Steve = 2>>\nNorra: What kind of stuff do you learn in Forestry school?\nSteve: Quercus rober. \nNorra: Uh... what?\nSteve: Crataegus monogyna.\nNorra: Now you're just being gross. \nSteve: They are scientific names for trees.\nSteve: Quercus rober is English oak.\nSteve: All oaks are Quercus. Quercus rubra is red oak.\nNorra: That's really cool actually. \nSteve: Obviously it's cool, because I taught it to you.\n[[But Crater-gus whatever isn't a real thing.|Steve.Hawthorn]]\n[[What other cool stuff can you teach me?|Steve.Hawthorn]]\n<<else>>\nNorra: Now can I drive the tractor?\nSteve: Hah! Maybe someday I'll let you drive the tractor. \nSteve: When I want to buy a new tractor. \n<<endif>>",
+		"position": {
+			"x": 994,
+			"y": 975
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Steve.Hawthorn",
+		"tags": "",
+		"body": "<<set $talk_to_Steve to +1>>\nSteve: Crataegus monogyna.\nNorra: Stop saying that. \nSteve: Ha ha. It's hawthorn. \nNorra: Really?\nSteve: Would I lie to you?\nNorra: Maybe.\nSteve: Maybe.\n-> Okay, talk to you later.\n    [[Steve.Exit]]\n-> So... will you teach me to drive the tractor?\n    Steve: Hah! Maybe... \n    Steve: Come back a little later. ",
+		"position": {
+			"x": 657,
+			"y": 964
+		},
+		"colorID": 0
+	}
+]

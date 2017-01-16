@@ -1,0 +1,72 @@
+[
+	{
+		"title": "Peahen",
+		"tags": "",
+		"body": "<<if visited (\"Peahen\") is false>>\nNorra: Hello.\n<<playAnimation Peahen flap>>\nPeahen: Ack! \nPeahen: Who are you?\nNorra: My name is Norra. Are you okay? \n<<playAnimation Peahen flap>>\nPeahen: No! \nPeahen: I don't mean to be rude. . . \nPeahen: It's just there are so many strange and terrible things happening right now. . . \nPeahen: I just don't have time for another.\n[[Okay. Sorry to bother you.|Peahen.Exit]]\n[[I'm not strange and terrible.|Peahen.Strange]]\n<<elseif visited (\"Peahen\") is true and if $searching_for_chicks is false>>\nPeahen: You're back again.\nPeahen: I don't mean to be rude. . . \nPeahen: It's just there are so many strange and terrible things happening right now. . . \nPeahen: I just don't have time for another.\n[[Okay. Sorry to bother you.|Peahen.Exit]]\n[[I'm not strange and terrible.|Peahen.Strange]]\n<<endif>>\n\n<<if $searching_for_chicks is true and $Galahad is true>>\nPeahen: Galahad! \nPeahen: Get over here this instant. I've been worried sick!\n<<move Galahad Peahen>>\n<<set $Galahad to false>>\n<<set $number_of_chicks += 1>>\n<<endif>>\n\n<<if $searching_for_chicks is true and $Gawain is true>>\nPeahen: Gawain! \nPeahen: Come under my wing, my little chick. You're safe now.\n<<move Gawain Peahen>>\n<<set $Gawain to false>>\n<<set $number_of_chicks += 1>>\n<<endif>>\n\n<<if $searching_for_chicks is true and $Guinevere is true>>\nPeahen: Guinevere! \nPeahen: Where have you been? I've been tearing out my feathers with worry!\n<<move Guinevere Peahen>>\n<<set $Guinevere to false>>\n<<set $number_of_chicks += 1>>\n<<endif>>\n\n<<if $searching_for_chicks is true and $number_of_chicks is 0>>\nPeahen: Maybe you haven't noticed, but the world is a little scary right now.\nPeahen: In all the mayhem, I've lost all of my chicks!\n<<playAnimation Peahen flap>>\nPeahen: Can you help me find my chicks and bring them back to me?\n<<set $Galahad to false>>\n<<set $Gawain to false>>\n<<set $Guinevere to false>>\n[[Of course!|Peahen.Search]]\n[[Um. . . Actually, nevermind.|Peahen.Exit]]\n<<elseif $searching_for_chicks is true and $number_of_chicks is 1>>\nPeahen: Thank you for bringing home my babies!\nPeahen: There are still two more chicks out there!\n<<elseif $searching_for_chicks is true and $number_of_chicks is 2>>\nPeahen: Thank you for bringing home my babies!\nPeahen: There is still one more chick out there!\n<<elseif $searching_for_chicks is true and $number_of_chicks is 3>> \nPeahen: Thank you for bringing home my babies!\nPeahen: Please, take this bracelet as a token of my gratitude.\n[[Peahen.Bracelet]]\n<<endif>>\n\n<<if visited (\"Peahen.Bracelet\") is true>>\n[[Peahen.Bracelethelp]]\n<<endif>>\n",
+		"position": {
+			"x": -42,
+			"y": -276
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Peahen.Exit",
+		"tags": "",
+		"body": "\n",
+		"position": {
+			"x": -515,
+			"y": -41
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Peahen.Help",
+		"tags": "",
+		"body": "<<playAnimation Norra seedscatter>>\nPeahen: Yum! \n<<playAnimation Peahen nibble>>\nPeahen: I guess you're not so terrible after all.\nPeahen: I think you can help me!\n<<playAnimation Peahen flap>>\nPeahen: Maybe you haven't noticed, but the world is a little scary right now.\nPeahen: In all the mayhem, I've lost all of my chicks!\nPeahen: Can you find my chicks and bring them back to me?\n<<set $searching_for_chicks to true>>\n[[Of course!|Peahen.Search]]\n[[Um. . . Actually, nevermind|Peahen.Exit]]\n\n",
+		"position": {
+			"x": -132,
+			"y": 254
+		},
+		"colorID": 1
+	},
+	{
+		"title": "Peahen.Strange",
+		"tags": "",
+		"body": "Peahen: Really? You certainly look strange and terrible. \nNorra: Well, I'm not. I'm here to help. \nPeahen: I'm not so sure. . .\n[[Nevermind then.|Peahen.Exit]]\n<<if $have_seed is true>>\n[[Look, I have some bird seed.|Peahen.Help]]\n<<endif>>\n",
+		"position": {
+			"x": 73,
+			"y": -1
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Peahen.Search",
+		"tags": "",
+		"body": "<<playAnimation Peahen flap>>\nPeahen: Amazing!\nPeahen: I knew you weren't strange and terrible!\nNorra: Yeah, I did too. . . \nPeahen: My three chicks are lost in the forest.\nPeahen: Once you find them, you can lure them in with your bird seed. \nPeahen: They go a little nuts for it. . . \nPeahen: And then you can bring them home to me!\nPeahen: They can't be too far away.\nPeahen: In fact, I think one is just on the other side of this wall. . .\n<<set $number_of_chicks is 0>>\n\n",
+		"position": {
+			"x": -418,
+			"y": 443
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Peahen.Bracelet",
+		"tags": "",
+		"body": "Peahen: This bracelet is a magical gift.\nPeahen: It will give you the strength to overcome your obstacles. \nPeahen: When you wear it, you have the ability to climb. \n<<set $wear_bracelet to true>>\nPeahen: Why don't you try it out right now?\n[[Peahen.Bracelethelp]]\n",
+		"position": {
+			"x": 251,
+			"y": -269
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Peahen.Bracelethelp",
+		"tags": "",
+		"body": "Peahen: Just jump and grab hold of ledge or low branch and start climbing. \nPeahen: You'll know what things you can climb on because they will look a little special.\nNarrator: Press A to jump and  move forward up to start climbing. \n",
+		"position": {
+			"x": 424,
+			"y": 29
+		},
+		"colorID": 0
+	}
+]

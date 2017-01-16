@@ -1,0 +1,84 @@
+title: John.Tutorial.1
+tags: 
+colorID: 0
+position: -93,133
+---
+John: Welcome to the castle!
+John: Thanks for volunteering your time to help us out. (to work in the grounds?)
+John: My name is John. I'm the head gardener here. 
+John: Why don't we start with a quick tour.
+John: I can bring you through the gardens and some of the grounds. 
+John: Just so you can orient yourself. 
+John: ...we can't go in...
+John: The rest you can explore on your own. 
+<<move John TeaRoom>>
+<<SetStartNode npc_John John.Tutorial.2>>
+===
+title: John
+tags: 
+colorID: 0
+position: 225,142
+---
+John: Hello, Norra. 
+Norra: Hello!
+John: Are you enjoying yourself?
+-> Yes, I'm having so much fun!
+    John: Good. 
+-> Not yet.
+    John: Oh dear. Well, I hope you start having fun soon.
+John: You can help me, if you like. 
+<<if visited ("John") is false>>
+John: I'm edging the beds right now.
+<<else>>
+John: I'm still working on cleaning up the edges of the beds.
+<<endif>>
+John: You can rake up the bits of grass
+John: and put them in the wheelbarrow. 
+[[Okay!|John.Help]]
+[[Sorry, I can't right now.|John.Exit]]
+===
+title: John.Exit
+tags: 
+colorID: 0
+position: 50,443
+---
+John: Okay. Take care, Norra.
+===
+title: John.Help
+tags: 
+colorID: 0
+position: 290,441
+---
+John: Thank you.
+===
+title: John.Tutorial.2
+tags: 
+colorID: 0
+position: -381,132
+---
+John: Try moving around and interacting with things. 
+(tea room is closed, read sign) 
+John: Just ask if you have any questions.
+John: Chestnut trees...?
+John: Tea room...?
+John: Okay, let's keep going.
+<<move John EstateOffice>>
+John: This is the office. 
+John: Let me introduce you to everyone. 
+John: Tim is the manager. He's in charge.
+John: If you ever have a question about where to go,
+John: just ask Tim.
+Tim: Good to have you, Norra!
+John: This is Fiona. Fiona works in the gardens with me.
+Fiona: Pleased to meet you, Norra. 
+John: And Steve maintains the rest of the grounds.
+Steve: Hello!
+John: Alright, now that you've met everyone,
+John: let's go into the garden.
+<<Move John RoseGarden>>
+John: Let me show you how to use the tools. 
+John: Here, take this rake. 
+John: Try raking up some of that cut grass. 
+<<set $have_rake to true>>
+
+===

@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 5ad667b2cbc68f14fb92570640bfa06f
+timeCreated: 1481251848
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: altered_UpperforestWishingtree_11_29
+    100002: Camera
+    100004: EstateOffice
+    100006: fieldCastleEntrance_11_29
+    100008: fieldShed_11_19
+    100010: fieldTeaRoom_11_19
+    100012: gardenLawnAndRoseGarden_11_19
+    100014: gardenVegetableGarden_11_29
+    100016: lowerForestGardenEntranceAndStream_11_28
+    100018: //RootNode
+    100020: upperForestAviary_11_29
+    100022: upperForestWoodHenge_11_28
+    100024: Upsidedown_fieldShed_11_19
+    100026: fieldCastleEntranceCastle
+    100028: fieldShed_11_19structure
+    100030: fieldTeaRoombuilding
+    100032: upperForestAviary_11_29.002
+    100034: lowerForestGardenEntranceAndStream_11_28.001
+    400000: altered_UpperforestWishingtree_11_29
+    400002: Camera
+    400004: EstateOffice
+    400006: fieldCastleEntrance_11_29
+    400008: fieldShed_11_19
+    400010: fieldTeaRoom_11_19
+    400012: gardenLawnAndRoseGarden_11_19
+    400014: gardenVegetableGarden_11_29
+    400016: lowerForestGardenEntranceAndStream_11_28
+    400018: //RootNode
+    400020: upperForestAviary_11_29
+    400022: upperForestWoodHenge_11_28
+    400024: Upsidedown_fieldShed_11_19
+    400026: fieldCastleEntranceCastle
+    400028: fieldShed_11_19structure
+    400030: fieldTeaRoombuilding
+    400032: upperForestAviary_11_29.002
+    400034: lowerForestGardenEntranceAndStream_11_28.001
+    2300000: altered_UpperforestWishingtree_11_29
+    2300002: EstateOffice
+    2300004: fieldCastleEntrance_11_29
+    2300006: fieldShed_11_19
+    2300008: fieldTeaRoom_11_19
+    2300010: gardenLawnAndRoseGarden_11_19
+    2300012: gardenVegetableGarden_11_29
+    2300014: lowerForestGardenEntranceAndStream_11_28
+    2300016: upperForestAviary_11_29
+    2300018: upperForestWoodHenge_11_28
+    2300020: Upsidedown_fieldShed_11_19
+    2300022: fieldCastleEntranceCastle
+    2300024: fieldShed_11_19structure
+    2300026: fieldTeaRoombuilding
+    2300028: upperForestAviary_11_29.002
+    2300030: lowerForestGardenEntranceAndStream_11_28.001
+    3300000: altered_UpperforestWishingtree_11_29
+    3300002: EstateOffice
+    3300004: fieldCastleEntrance_11_29
+    3300006: fieldShed_11_19
+    3300008: fieldTeaRoom_11_19
+    3300010: gardenLawnAndRoseGarden_11_19
+    3300012: gardenVegetableGarden_11_29
+    3300014: lowerForestGardenEntranceAndStream_11_28
+    3300016: upperForestAviary_11_29
+    3300018: upperForestWoodHenge_11_28
+    3300020: Upsidedown_fieldShed_11_19
+    3300022: fieldCastleEntranceCastle
+    3300024: fieldShed_11_19structure
+    3300026: fieldTeaRoombuilding
+    3300028: upperForestAviary_11_29.002
+    3300030: lowerForestGardenEntranceAndStream_11_28.001
+    4300000: Upsidedown_fieldShed_11_19
+    4300002: upperForestWoodHenge_11_28
+    4300004: upperForestAviary_11_29
+    4300006: lowerForestGardenEntranceAndStream_11_28
+    4300008: gardenVegetableGarden_11_29
+    4300010: gardenLawnAndRoseGarden_11_19
+    4300012: fieldTeaRoom_11_19
+    4300014: fieldShed_11_19
+    4300016: fieldCastleEntrance_11_29
+    4300018: EstateOffice
+    4300020: altered_UpperforestWishingtree_11_29
+    4300022: upperForestAviary_11_29.002
+    4300024: fieldShed_11_19structure
+    4300026: fieldTeaRoombuilding
+    4300028: fieldCastleEntranceCastle
+    4300030: lowerForestGardenEntranceAndStream_11_28.001
+    6400000: altered_UpperforestWishingtree_11_29
+    6400002: EstateOffice
+    6400004: fieldCastleEntrance_11_29
+    6400006: fieldShed_11_19
+    6400008: fieldTeaRoom_11_19
+    6400010: gardenLawnAndRoseGarden_11_19
+    6400012: gardenVegetableGarden_11_29
+    6400014: lowerForestGardenEntranceAndStream_11_28
+    6400016: upperForestAviary_11_29
+    6400018: upperForestWoodHenge_11_28
+    6400020: Upsidedown_fieldShed_11_19
+    6400022: fieldCastleEntranceCastle
+    6400024: fieldShed_11_19structure
+    6400026: fieldTeaRoombuilding
+    6400028: upperForestAviary_11_29.002
+    6400030: lowerForestGardenEntranceAndStream_11_28.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

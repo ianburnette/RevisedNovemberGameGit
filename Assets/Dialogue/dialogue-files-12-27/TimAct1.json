@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Tim",
+		"tags": "",
+		"body": "<<if visited (\"Tim\") is false>>\nTim: Thanks for volunteering, Norra. We can always use an extra hand around here.\nTim: If you ever need to know where to go, just come check in with me.\n<<else>>\nNorra: Hi, Tim.\nTim: Hi.\n<<endif>>\n\n<<if visited(\"Fiona\") is false>>\n    Tim: If you're looking for something to do, Fiona could use a hand.\n    Tim: She's probably down by the aviary.\n<<else>>\n    <<if $received_supply_list_from_Fiona is true>>\n        Norra: Fiona said she needs to keys to the aviary.\n        Tim: Oh, okay.\n        Tim: Let's go into the toolshed. \n        Tim: But not in a creepy way. . . \n        <<move Tim ToolShed>>\n        <<move Norra ToolShed>>\n    <<else>>\n        Tim: I think Fiona could use your help. Everyone else is all set for now.\n    <<endif>>\n<<endif>>\n",
+		"position": {
+			"x": 456,
+			"y": 94
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Tim.ToolShed.Shears",
+		"tags": "",
+		"body": "Tim: Fiona needs help feeding her budgies, not trimming her bushes. ",
+		"position": {
+			"x": 706,
+			"y": 170
+		},
+		"colorID": 6
+	},
+	{
+		"title": "Tim.ToolShed.Axe",
+		"tags": "",
+		"body": "Tim: Where do you think you're going with that?!",
+		"position": {
+			"x": 956,
+			"y": 194
+		},
+		"colorID": 6
+	},
+	{
+		"title": "Tim.ToolShed",
+		"tags": "",
+		"body": "<<if $have_seed is true and $have_keys is true>>\n    Tim: Great. The key to the aviary is the little silver one.\n    <<move Tim ToolShedExit>>\n    <<move Norra ToolShedExit>>\n<<else>>\n    Tim: Quit messing around. \n    Tim: Fiona needs the keys to the aviary and the birdseed.\n    Tim: And I need to get back to my emails.\n<<endif>>",
+		"position": {
+			"x": 509,
+			"y": 404
+		},
+		"colorID": 0
+	}
+]

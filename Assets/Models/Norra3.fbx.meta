@@ -1,0 +1,335 @@
+fileFormatVersion: 2
+guid: cb51e35d8119c1b4ab3f163e9b0f4c68
+timeCreated: 1480548428
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature.001
+    100004: Armature.002
+    100006: Bone
+    100008: Bone 1
+    100010: Bone 2
+    100012: Bone.001
+    100014: Bone.001 1
+    100016: Bone.001 2
+    100018: Bone.002
+    100020: Bone.002 1
+    100022: Bone.002 2
+    100024: Bone.003
+    100026: Bone.003 1
+    100028: Bone.003 2
+    100030: Bone.004
+    100032: Bone.004 1
+    100034: Bone.004 2
+    100036: Bone.004_end
+    100038: Bone.004_end 1
+    100040: Bone.004_end 2
+    100042: Bone.005
+    100044: Bone.005 1
+    100046: Bone.005 2
+    100048: Bone.006
+    100050: Bone.006 1
+    100052: Bone.006 2
+    100054: Bone.007
+    100056: Bone.007 1
+    100058: Bone.007 2
+    100060: Bone.008
+    100062: Bone.008 1
+    100064: Bone.008 2
+    100066: Bone.009
+    100068: Bone.009 1
+    100070: Bone.009 2
+    100072: Bone.010
+    100074: Bone.010 1
+    100076: Bone.010 2
+    100078: Bone.011
+    100080: Bone.011 1
+    100082: Bone.011 2
+    100084: Bone.012
+    100086: Bone.012 1
+    100088: Bone.012 2
+    100090: Bone.013
+    100092: Bone.013 1
+    100094: Bone.013 2
+    100096: Bone.013_end
+    100098: Bone.013_end 1
+    100100: Bone.013_end 2
+    100102: Bone.014
+    100104: Bone.014 1
+    100106: Bone.014 2
+    100108: Bone.014_end
+    100110: Bone.014_end 1
+    100112: Bone.014_end 2
+    100114: Bone.015
+    100116: Bone.015 1
+    100118: Bone.015 2
+    100120: Bone.015_end
+    100122: Bone.015_end 1
+    100124: Bone.015_end 2
+    100126: Bone.016
+    100128: Bone.016 1
+    100130: Bone.016 2
+    100132: Bone.017
+    100134: Bone.017 1
+    100136: Bone.017 2
+    100138: Bone.018
+    100140: Bone.018 1
+    100142: Bone.018 2
+    100144: Bone.019
+    100146: Bone.019 1
+    100148: Bone.019 2
+    100150: Bone.019_end
+    100152: Bone.019_end 1
+    100154: Bone.019_end 2
+    100156: Bone.020
+    100158: Bone.020 1
+    100160: Bone.020 2
+    100162: Bone.021
+    100164: Bone.021 1
+    100166: Bone.021 2
+    100168: Bone.022
+    100170: Bone.022 1
+    100172: Bone.022 2
+    100174: Bone.023
+    100176: Bone.023 1
+    100178: Bone.023 2
+    100180: Bone.023_end
+    100182: Bone.023_end 1
+    100184: Bone.023_end 2
+    100186: Bone.024
+    100188: Bone.024 1
+    100190: Bone.024 2
+    100192: Bone.024_end
+    100194: Bone.024_end 1
+    100196: Bone.024_end 2
+    100198: Bone.025
+    100200: Bone.025 1
+    100202: Bone.025 2
+    100204: Bone.025_end
+    100206: Bone.025_end 1
+    100208: Bone.025_end 2
+    100210: Bottoms
+    100212: Camera
+    100214: Cube.002
+    100216: Cube.004
+    100218: Eyelashes
+    100220: Hair
+    100222: Lamp
+    100224: //RootNode
+    100226: Shoes
+    100228: Tops
+    400000: Armature
+    400002: Armature.001
+    400004: Armature.002
+    400006: Bone
+    400008: Bone 1
+    400010: Bone 2
+    400012: Bone.001
+    400014: Bone.001 1
+    400016: Bone.001 2
+    400018: Bone.002
+    400020: Bone.002 1
+    400022: Bone.002 2
+    400024: Bone.003
+    400026: Bone.003 1
+    400028: Bone.003 2
+    400030: Bone.004
+    400032: Bone.004 1
+    400034: Bone.004 2
+    400036: Bone.004_end
+    400038: Bone.004_end 1
+    400040: Bone.004_end 2
+    400042: Bone.005
+    400044: Bone.005 1
+    400046: Bone.005 2
+    400048: Bone.006
+    400050: Bone.006 1
+    400052: Bone.006 2
+    400054: Bone.007
+    400056: Bone.007 1
+    400058: Bone.007 2
+    400060: Bone.008
+    400062: Bone.008 1
+    400064: Bone.008 2
+    400066: Bone.009
+    400068: Bone.009 1
+    400070: Bone.009 2
+    400072: Bone.010
+    400074: Bone.010 1
+    400076: Bone.010 2
+    400078: Bone.011
+    400080: Bone.011 1
+    400082: Bone.011 2
+    400084: Bone.012
+    400086: Bone.012 1
+    400088: Bone.012 2
+    400090: Bone.013
+    400092: Bone.013 1
+    400094: Bone.013 2
+    400096: Bone.013_end
+    400098: Bone.013_end 1
+    400100: Bone.013_end 2
+    400102: Bone.014
+    400104: Bone.014 1
+    400106: Bone.014 2
+    400108: Bone.014_end
+    400110: Bone.014_end 1
+    400112: Bone.014_end 2
+    400114: Bone.015
+    400116: Bone.015 1
+    400118: Bone.015 2
+    400120: Bone.015_end
+    400122: Bone.015_end 1
+    400124: Bone.015_end 2
+    400126: Bone.016
+    400128: Bone.016 1
+    400130: Bone.016 2
+    400132: Bone.017
+    400134: Bone.017 1
+    400136: Bone.017 2
+    400138: Bone.018
+    400140: Bone.018 1
+    400142: Bone.018 2
+    400144: Bone.019
+    400146: Bone.019 1
+    400148: Bone.019 2
+    400150: Bone.019_end
+    400152: Bone.019_end 1
+    400154: Bone.019_end 2
+    400156: Bone.020
+    400158: Bone.020 1
+    400160: Bone.020 2
+    400162: Bone.021
+    400164: Bone.021 1
+    400166: Bone.021 2
+    400168: Bone.022
+    400170: Bone.022 1
+    400172: Bone.022 2
+    400174: Bone.023
+    400176: Bone.023 1
+    400178: Bone.023 2
+    400180: Bone.023_end
+    400182: Bone.023_end 1
+    400184: Bone.023_end 2
+    400186: Bone.024
+    400188: Bone.024 1
+    400190: Bone.024 2
+    400192: Bone.024_end
+    400194: Bone.024_end 1
+    400196: Bone.024_end 2
+    400198: Bone.025
+    400200: Bone.025 1
+    400202: Bone.025 2
+    400204: Bone.025_end
+    400206: Bone.025_end 1
+    400208: Bone.025_end 2
+    400210: Bottoms
+    400212: Camera
+    400214: Cube.002
+    400216: Cube.004
+    400218: Eyelashes
+    400220: Hair
+    400222: Lamp
+    400224: //RootNode
+    400226: Shoes
+    400228: Tops
+    2300000: Bottoms
+    2300002: Cube.004
+    2300004: Eyelashes
+    2300006: Hair
+    2300008: Shoes
+    2300010: Tops
+    3300000: Bottoms
+    3300002: Cube.004
+    3300004: Eyelashes
+    3300006: Hair
+    3300008: Shoes
+    3300010: Tops
+    4300000: Bottoms
+    4300002: Tops
+    4300004: Hair
+    4300006: Eyelashes
+    4300008: Shoes
+    4300010: Cube.002
+    4300012: Cube.004
+    7400000: Armature|ArmatureAction
+    7400002: Armature|ArmatureAction.001
+    7400004: Armature|ArmatureAction.002
+    7400006: Armature.001|ArmatureAction
+    7400008: Armature.001|ArmatureAction.001
+    7400010: Armature.001|ArmatureAction.002
+    7400012: Armature.002|ArmatureAction
+    7400014: Armature.002|ArmatureAction.001
+    7400016: Armature.002|ArmatureAction.002
+    9500000: //RootNode
+    13700000: Cube.002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

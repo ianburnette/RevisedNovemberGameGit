@@ -1,0 +1,121 @@
+# Exported from Fuse 2015.1.0
+
+newmtl Moustache
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d steve_Moustache_Opacity.png
+map_Kd steve_Moustache_Diffuse.png
+adobe_map_normal steve_Moustache_Normal.png
+map_Ks steve_Moustache_Specular.png
+adobe_map_shininess steve_Moustache_Gloss.png
+
+newmtl Beard
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d steve_Beard_Opacity.png
+map_Kd steve_Beard_Diffuse.png
+adobe_map_normal steve_Beard_Normal.png
+map_Ks steve_Beard_Specular.png
+adobe_map_shininess steve_Beard_Gloss.png
+
+newmtl Top
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d steve_Top_Opacity.png
+map_Kd steve_Top_Diffuse.png
+adobe_map_normal steve_Top_Normal.png
+map_Ks steve_Top_Specular.png
+adobe_map_shininess steve_Top_Gloss.png
+
+newmtl Shoes
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d steve_Shoes_Opacity.png
+map_Kd steve_Shoes_Diffuse.png
+adobe_map_normal steve_Shoes_Normal.png
+map_Ks steve_Shoes_Specular.png
+adobe_map_shininess steve_Shoes_Gloss.png
+
+newmtl Bottom
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d steve_Bottom_Opacity.png
+map_Kd steve_Bottom_Diffuse.png
+adobe_map_normal steve_Bottom_Normal.png
+map_Ks steve_Bottom_Specular.png
+adobe_map_shininess steve_Bottom_Gloss.png
+
+newmtl Hair
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d steve_Hair_Opacity.png
+map_Kd steve_Hair_Diffuse.png
+adobe_map_normal steve_Hair_Normal.png
+map_Ks steve_Hair_Specular.png
+adobe_map_shininess steve_Hair_Gloss.png
+
+newmtl Body
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d steve_Body_Opacity.png
+map_Kd steve_Body_Diffuse.png
+adobe_map_normal steve_Body_Normal.png
+map_Ks steve_Body_Specular.png
+adobe_map_shininess steve_Body_Gloss.png
+

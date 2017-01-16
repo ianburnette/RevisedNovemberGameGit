@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Fox.Start",
+		"tags": "",
+		"body": "<<if visited(\"Fox.Start\") is false>>\nFox: Hi.\n<<else>>\nFox: You're back.\n<<endif>>\n[[Hello.|Fox.Talk]]\n[[Goodbye.|Fox.End]]\n",
+		"position": {
+			"x": 540,
+			"y": 260
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Fox.Talk",
+		"tags": "",
+		"body": "Norra: AHH! A FOX!",
+		"position": {
+			"x": 226,
+			"y": 308
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Fox.End",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 824,
+			"y": 236
+		},
+		"colorID": 0
+	}
+]
