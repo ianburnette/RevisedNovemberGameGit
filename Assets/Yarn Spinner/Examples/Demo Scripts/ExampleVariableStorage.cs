@@ -28,6 +28,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Yarn.Unity;
+using Yarn.Unity.Example;
 
 // An extremely simple implementation of DialogueUnityVariableStorage, which
 // just stores everything in a Dictionary.
@@ -47,7 +48,11 @@ public class ExampleVariableStorage : VariableStorageBehaviour
         public Yarn.Value.Type type;
 	}
 
-	// Our list of default variables, for debugging.
+    // Our list of default variables, for debugging.
+    [SerializeField] int plantsWatered, maxPlants;
+    [SerializeField] string plantVariableName, JohnNewNodeName;
+    [SerializeField] NPC JohnNPCDialogue;
+
 	public DefaultVariable[] defaultVariables;
 
 	[Header("Optional debugging tools")]
@@ -59,8 +64,22 @@ public class ExampleVariableStorage : VariableStorageBehaviour
     public PlayerInventory inventory;
     public LedgeHandling ledges;
 
-	// Reset to our default values when the game starts
-	void Awake ()
+    public int PlantsWatered
+    {
+        get
+        {
+            return plantsWatered;
+        }
+
+        set
+        {
+            print("setting here");
+            WaterPlants(value);
+        }
+    }
+
+    // Reset to our default values when the game starts
+    void Awake ()
 	{
 		ResetToDefaults ();
 	}
@@ -174,5 +193,19 @@ public class ExampleVariableStorage : VariableStorageBehaviour
 		}
 	}
 
+    public void WaterPlants(int value)
+    {
+ 
+        plantsWatered = value;
+        if (plantsWatered >= maxPlants)
+        {
+            print("setting plants watered to true");
+            object newvalue = true;
+            var v = new Yarn.Value(newvalue);
+            variables[plantVariableName] = v;
+            //variables.SetValue("$" + var.name, v);
+            JohnNPCDialogue.talkToNode = JohnNewNodeName;
+        }
+    }
 
 }

@@ -32,7 +32,7 @@
 	{
 		"title": "John.Tutorial",
 		"tags": "",
-		"body": "<<set $plants_watered to false>>\n<<if visited (\"John.Tutorial\") is false>>\nJohn: Well, Norra, we are certainly pleased to have you. \nJohn: The estate team can always use more volunteers.\nJohn: I think you will enjoy working here.\nJohn: The grounds are beautiful place to work, \nJohn: and sometimes a little magical, too.\n[[Who are you?|John.Introduction]]\n[[Where am I?|John.Location]]\n<<else>>\n[[John.Rake]]\n<<endif>>\n",
+		"body": "\n<<if visited (\"John.Tutorial\") is false>>\nJohn: Well, Norra, we are certainly pleased to have you. \nJohn: The estate team can always use more volunteers.\nJohn: I think you will enjoy working here.\nJohn: The grounds are beautiful place to work, \nJohn: and sometimes a little magical, too.\n[[Who are you?|John.Introduction]]\n[[Where am I?|John.Location]]\n<<else>>\n[[John.Rake]]\n<<endif>>\n",
 		"position": {
 			"x": -708,
 			"y": -68

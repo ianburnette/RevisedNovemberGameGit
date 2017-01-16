@@ -47,7 +47,7 @@ void Update () {
     }
     void SetAnimation()
     {
-        animator.SetFloat("Forward", agent.desiredVelocity.magnitude);
+        animator.SetFloat("speed", agent.desiredVelocity.magnitude);
         animator.SetFloat("DistanceToTarget", agent.velocity.magnitude);
         // animator.SetFloat("Turn", moveDirection.x);
         animator.SetBool("OnGround", true);

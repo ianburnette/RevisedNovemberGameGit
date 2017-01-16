@@ -38,7 +38,8 @@ public class WateringCan : MonoBehaviour {
             else if (hit.transform.tag == "watered")
             {
                 sprayParticles.subEmitters.collision0.enableEmission = true;
-                    //.enabled = true;
+                //.enabled = true;
+                currentWaterable = null;
             }
             else{
                 sprayParticles.subEmitters.collision0.enableEmission = true;

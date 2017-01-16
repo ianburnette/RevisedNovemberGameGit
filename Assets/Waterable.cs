@@ -8,6 +8,9 @@ public class Waterable : MonoBehaviour {
     #region PrivateProperties
     [Range(0f,1f)]
     [SerializeField]float wateredAmt;
+    [SerializeField] bool important;
+    [SerializeField] string variableName;
+    [SerializeField] ExampleVariableStorage variables;
     [SerializeField] GameObject plant;
     [SerializeField] float targetScale;
     [SerializeField] float scaleSpeed;
@@ -44,7 +47,14 @@ public class Waterable : MonoBehaviour {
     {
         transform.tag = "watered";
         print("scale here");
+        if (important)
+            Increment();
      //   plant.transform.DOScale(targetScale, scaleSpeed);
     }
-    #endregion
-}
+    void Increment()
+    {
+        variables.PlantsWatered++;
+
+    }
+        #endregion
+    }
