@@ -39,6 +39,9 @@ public class PlayerInventory : MonoBehaviour {
     [SerializeField] bool haveBracelet;
     [SerializeField] LedgeHandling ledgeScript;
 
+    //keys
+    [SerializeField] bool haveKeys;
+
     //watering can
     [SerializeField] WateringCan wateringCanScript;
     [SerializeField] ParticleSystem wateringCanParticleSystem;
@@ -47,15 +50,13 @@ public class PlayerInventory : MonoBehaviour {
     
 #endregion
     #region PublicProperties
-        public bool HaveBracelet { get { return haveBracelet; }
-        set {
-            GetBracelet();
-        }
-    }
+        public bool HaveBracelet { get { return haveBracelet; } set { GetBracelet(); }}
+        public bool HaveKeys { get { return haveKeys; } set { GetKeys(); } }
     #endregion
     #region UnityFunctions
     void Start () {
-	
+        itemText = MetaScript.GetGameMeta().CurrentItemGO.GetComponent<Text>();
+        GlobalInventory.staticInventory.PlayerInven = this;
     }
     void Update () {
         GetInteractInput();
@@ -70,6 +71,16 @@ public class PlayerInventory : MonoBehaviour {
     {
         tools[itemIndex].have = true;
         ChangeItem(itemIndex);
+    }
+    public void GetKeys()
+    {
+        haveKeys = true;
+        items[0].have = true;
+    }
+    void GetBracelet()
+    {
+        haveBracelet = true;
+        ledgeScript.enabled = true;
     }
     #endregion
     #region ChangingItems
@@ -240,11 +251,7 @@ public class PlayerInventory : MonoBehaviour {
         
     }
 
-    void GetBracelet()
-    {
-        haveBracelet = true;
-        ledgeScript.enabled = true;
-    }
+
 
     void ThrowSeeds()
     {

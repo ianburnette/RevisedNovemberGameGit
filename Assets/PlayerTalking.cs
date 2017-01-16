@@ -21,6 +21,7 @@ public class PlayerTalking : MonoBehaviour {
         toDisableWhileInDialogue[1] = Camera.main.GetComponent<ThirdPersonCamera>();
         toEnableWhileInDialogue[0] = Camera.main.GetComponent<DialogueCamera>();
         //toEnableWhileInDialogue[1] = Camera.main.GetComponent<DialogueCamera>();
+        MetaScript.GetGameMeta().DialogueUI.playerDialogue = this;
     }
 
 void Update () {

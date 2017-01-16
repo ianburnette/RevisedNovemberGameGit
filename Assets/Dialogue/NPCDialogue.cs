@@ -16,7 +16,8 @@ public class NPCDialogue : MonoBehaviour {
 #endregion
 #region UnityFunctions
     void Start () {
-          dialogueCol = GetComponent<Collider>();
+        bubble = MetaScript.GetGameMeta().BubbleGO;
+        dialogueCol = GetComponent<Collider>();
         promptShowing = false;
         bubble.SetActive(false);
     }

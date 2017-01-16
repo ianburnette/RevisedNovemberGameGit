@@ -7,7 +7,7 @@ public class Collectible : MonoBehaviour, IInteractible {
     [SerializeField] bool inRange;
     [Tooltip("Assigned automatically to first child")]
     [SerializeField] GameObject UIPrompt;
-    [Tooltip("0=can,1=seeds,2=axe,3=clippers")]
+    [Tooltip("0=can,1=seeds,2=axe,3=clippers,4=keys")]
     [SerializeField] int objectType;
     #endregion
     #region PublicProperties
@@ -44,6 +44,10 @@ public class Collectible : MonoBehaviour, IInteractible {
             case 2:
                 break;
             case 3:
+                GlobalInventory.staticInventory.HaveKeys = true;
+                break;
+            case 4:
+              
                 break;
         }
        
